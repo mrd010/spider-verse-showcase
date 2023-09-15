@@ -101,6 +101,11 @@ header .header-lower .header-image img {
   font-size: 18px;
   width: 150px;
   text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #2d6dd4;
 }
 
 main {
@@ -127,6 +132,7 @@ main .main-section .section-content .row {
 main .main-section .section-content .row figure {
   width: 200px;
   height: 200px;
+  cursor: pointer;
 }
 
 figure img {
@@ -135,6 +141,11 @@ figure img {
   object-fit: cover;
   border-radius: 10%;
   border: 3px solid #3882f6;
+  transition: all 0.2s ease;
+}
+
+figure:hover img {
+  transform: scale(110%);
 }
 
 figure figcaption {
